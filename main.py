@@ -12,5 +12,5 @@ def rename_files(directory, prefix, suffix):
 if __name__ == "__main__":
     directory = input("Bitte gib den Verzeichnispfad an: ")
     prefix = input("Bitte gib das Präfix für die Dateinamen ein: ")
-    suffix = input("Bitte gib das Suffix für die Dateinamen ein: ")
+    suffix = input("Bitte gib das Suffix (Dateinamenerweiterung) für die Dateinamen ein: ")
     rename_files(directory, prefix, suffix)
